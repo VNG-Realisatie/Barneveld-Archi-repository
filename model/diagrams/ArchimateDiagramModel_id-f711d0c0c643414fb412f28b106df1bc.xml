@@ -1,4 +1,46 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Default View"
-    id="id-f711d0c0c643414fb412f28b106df1bc"/>
+    id="id-f711d0c0c643414fb412f28b106df1bc">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-d9aa792cd8434632b3bd52215ad81d19"
+      targetConnections="id-4af71a789d44467e9cd6a2314fa6a5c6">
+    <features
+        name="deriveElementLineColor"
+        value="false"/>
+    <bounds
+        x="100"
+        y="120"
+        width="141"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-387ee37fbecc4099b5c0c42afc6ec552.xml#id-387ee37fbecc4099b5c0c42afc6ec552"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-2f8ff2a5972c46d58c4ae41117ccd762">
+    <features
+        name="deriveElementLineColor"
+        value="false"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-4af71a789d44467e9cd6a2314fa6a5c6"
+        source="id-2f8ff2a5972c46d58c4ae41117ccd762"
+        target="id-d9aa792cd8434632b3bd52215ad81d19">
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_id-71e1f989147b4aec9d7a97750a7dff31.xml#id-71e1f989147b4aec9d7a97750a7dff31"/>
+    </sourceConnections>
+    <bounds
+        x="711"
+        y="107"
+        width="141"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-9a1370ae44124be5a7ab1cd8134466c8.xml#id-9a1370ae44124be5a7ab1cd8134466c8"/>
+  </children>
+</archimate:ArchimateDiagramModel>
